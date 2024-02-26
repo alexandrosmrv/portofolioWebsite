@@ -1,0 +1,404 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+h1 {
+  color: #474E68;
+  font-size: 3;
+  margin: 3rem;
+}
+.theh1js {
+  font-size: 10rem;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #50577A;
+  font-weight: 400;
+  margin: 10px 650px;
+  font-size: 1.6rem;
+}
+h3 {
+  color: #6B728E;
+  margin: 2rem 1rem 1.5rem;
+  font-size: 2rem;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #001253;
+  font-size: 1.25rem;
+}
+
+/* navigation bar Css */
+/* navigation bar  */
+.navbar-brand {
+  font-family: "Roboto";
+}
+/* navigation bar logo */
+.logo{
+  padding-left: 1rem;
+  height: 8.5rem;
+  width: 8.5rem;
+}
+/* navigation bar behaviour */
+.container-fluid {
+  padding: 1rem;
+  
+}
+/* navigation bar menu items*/
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+  color: #77808d;
+  font-weight: 700;
+  margin: 1.25rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #f8f9fa;
+  }
+  .nav-itemjs{
+  border-bottom: 1px solid gray;
+  }
+/* navigation bar menu search button */
+.button-search {
+  font-family: 'Raleway';
+  border-color: #0d6efd;
+  color: #1b4b92;
+}
+.button-search:hover {
+  background-color: #a4a5a7;
+  border-color: #171718
+}
+
+
+/* Header-container CSS */
+.im1,.im2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.top-container {
+ background-color: rgb(186, 190, 190);
+  text-align: center;
+ border-radius: 30px;
+
+}
+.devjs{
+  color:#353536;
+}
+
+/* Mid Container Css */
+  .theMidContainer{
+  padding-top: 2rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+  text-align: center;
+  }
+  .midphotos1,.midphotos2,.midphotos3{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    
+    }
+    .midphotos1:hover{
+      transform: scale(1.1); 
+    }
+    .midphotos2:hover{
+      transform: scale(1.1); 
+    }
+    .midphotos3:hover{
+      transform: scale(1.1); 
+    }
+
+    
+
+/* Footer section Css*/
+ .footer-container {
+  text-align: center;
+  background-color: rgb(186, 190, 190);
+  padding: 1.5rem 2rem 4rem;
+  
+}
+.endSection{
+  padding-top: 1rem;
+  height: fit-content;
+  width: auto;
+  background-color: rgb(186, 190, 190);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-top: 1px solid grey;
+}
+  .links-ab,.links-ab2{
+  text-decoration:none;
+  font-size: 1rem;
+  }
+  .links-ab2{
+color:rgb(30, 7, 112);
+  }
+
+  .linkHeader,.h4border1{
+    text-decoration: none;
+    color:#474E68;
+  }
+  footer{
+    font-size: x-small;
+    text-align: center;
+  }
+  .h4border{
+  border-bottom: 1px solid grey;
+  text-decoration: none;
+  color:#474E68;
+  }
+
+  /* <!-- Cards demo section CSS--> */
+#price{
+  font-family: 'Raleway', sans-serif;
+  padding: 5rem 10rem;
+  border-radius: 30px;
+  
+}
+.changecolorjs{
+  color: rgb(46, 126, 231);
+}
+.card-header{
+  height:4rem;
+  }
+.test{
+    background-color: rgb(186, 190, 190);
+    }
+
+  /* CArousel CSS */
+.caroutest{
+  text-align: center;
+}
+.carousel-img{
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px grey;
+  margin:2rem 0 2rem 0 ;
+ }
+
+/* Contact Page */
+label{
+margin:1.1rem 
+}
+input, textarea{
+  border:none;
+  border-bottom: 1px solid gray;
+  flex-wrap: wrap;
+}
+.contactContainer{
+margin: 2rem 0 10rem 2rem;
+}
+.contactButton{
+  margin: 1rem;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  border-radius: 20px;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 1px 10px 1px grey;
+}
+.contactButton:hover{
+  background-color: #757777;
+  color: white;
+}
+
+
+.links-a {
+  color: #0D4C92;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.links-a-js{
+  border-collapse: collapse;
+  background-color:#357a86;
+  border-radius: 20px;
+  color: #DEF5E5;
+}
+.just{
+  font-size: 1.5rem;
+}
+
+
+
+/* About page */
+
+.about{
+  padding: 0.5px;
+  margin-bottom: 2rem;
+  border-radius: 50px;
+  height: auto;
+  width: auto;
+}
+.h1-about{
+  text-align: center;
+}
+.aboutParent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap:1px;
+  text-align: center;
+  background: linear-gradient(0.25turn, #8f9192, #c1c3c5, #eaecee);
+  height: auto;
+  width: auto;
+  box-shadow: 10px black;
+  margin-bottom: 6rem;
+  }
+  .aboutChilds1,.aboutChilds2,.aboutChilds3{
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px grey;
+    padding: 1rem;
+    background-color: whitesmoke;
+  }
+
+.about_list{
+  font-family: 'Raleway', sans-serif;
+  color: #001253;
+  font-size: 1.25rem;
+
+}
+.cont_working_photo1{
+  padding-left: 50px;
+}
+.photo1{
+  float: left;
+}
+.text{
+  float: left;
+  font-size: 10px;
+  padding-left: 20px;
+  width:8rem;
+}
+.opacity{
+  opacity: 0.5;
+}
+
+/* THE MODAL T */
+/* The Modal (background) */
+.modal, .modal1, .modal2{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+/* Modal Content */
+.modal-content, .modal-content1, .modal-content2{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+  }
+
+/* The Close Button */
+.close,.close1,.close2{
+  color: #6d6868;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* REPOSITOPRIES PAGE */
+/* 
+.paralax effect */
+.repoh1{
+  text-align: center;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+.paralax {
+  background-image:url("../photos/space\ grey.jpg");
+  min-height: 600px;
+  min-width: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  }
+.paralaxParent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+  padding: 3% 0 5% ;
+  
+}
+.paralax1, .paralax2, .paralax3, .paralax4, .paralax5, .paralax6, .paralax7, .paralax8{
+  padding: 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+ }
+ .paralax1:hover,.paralax2:hover, .paralax3:hover, 
+.paralax4:hover, .paralax5:hover, .paralax6:hover, 
+.paralax7:hover, .paralax8:hover{
+  transform: scale(1.1); 
+}
+.imgparalax{
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+
+/* @MEDIA BREAK POINTS  */
+
+/* lARGE MONITORS */
+@media(max-width:1660px) {
+  h2{
+  margin: 0 100px;
+  text-align: center;
+}
+
+}
+/* MEDIUM SIZE MONITORS */
+@media(max-width:1189px){
+  .text{float: none;}
+}
+
+/* SMALL SIZE MONITORS */
+@media(max-width:740px){
+ 
+  .carousel-img{
+  width: 400px;
+  height: 300px;
+}
+.hi{
+  padding-left: 250px;
+}
+}
