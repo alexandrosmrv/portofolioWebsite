@@ -1,12 +1,13 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
  
 }
 h1 {
   color: #474E68;
   font-size: 3;
-  margin: 3rem;
+  
 }
 .theh1js {
   font-size: 10rem;
@@ -50,7 +51,7 @@ p {
   font-family: 'Raleway', sans-serif;
   color: #77808d;
   font-weight: 700;
-  margin: 1.25rem;
+  margin: 1rem;
   font-size: 1rem;
   border-bottom: 1px solid #f8f9fa;
   }
@@ -90,7 +91,7 @@ p {
   padding-top: 2rem;
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:space-evenly;
   flex-wrap: wrap;
   gap: 1.8rem;
   text-align: center;
@@ -131,7 +132,7 @@ p {
 }
   .links-ab,.links-ab2{
   text-decoration:none;
-  font-size: 1.3rem;
+  font-size: 1rem;
   }
   .links-ab2{
 color:rgb(30, 7, 112);
@@ -154,7 +155,9 @@ color:rgb(30, 7, 112);
   /* <!-- Cards demo section CSS--> */
 #price{
   font-family: 'Raleway', sans-serif;
-  padding: 5rem 10rem;
+  height: fit-content;
+  width: auto;
+  padding: 4rem;
   border-radius: 30px;
   
 }
@@ -163,6 +166,7 @@ color:rgb(30, 7, 112);
 }
 .card-header{
   height:4rem;
+ 
   }
 .test{
     background-color: rgb(186, 190, 190);
@@ -378,7 +382,7 @@ margin: 2rem 0 10rem 2rem;
 
 /* @MEDIA BREAK POINTS  */
 
-/* lARGE MONITORS */
+/* lARGE MONITORS
 @media(max-width:1660px) {
   h2{
   margin: 0 100px;
@@ -387,12 +391,12 @@ margin: 2rem 0 10rem 2rem;
 
 }
 /* MEDIUM SIZE MONITORS */
-@media(max-width:1189px){
+/* @media(max-width:1189px){
   .text{float: none;}
-}
+} */
 
 /* SMALL SIZE MONITORS */
-@media(max-width:740px){
+/* @media(max-width:740px){
  
   .carousel-img{
   width: 400px;
@@ -400,5 +404,5 @@ margin: 2rem 0 10rem 2rem;
 }
 .hi{
   padding-left: 250px;
-}
-}
+} */
+ 
