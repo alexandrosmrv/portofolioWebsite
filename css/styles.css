@@ -245,7 +245,7 @@ margin: 2rem 0 10rem 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap:1px;
+  gap:2rem 1rem;
   text-align: center;
   background: linear-gradient(0.25turn, #8f9192, #c1c3c5, #eaecee);
   height: auto;
@@ -258,6 +258,7 @@ margin: 2rem 0 10rem 2rem;
     box-shadow: 10px 10px 10px grey;
     padding: 1rem;
     background-color: whitesmoke;
+    
   }
 
 .about_list{
@@ -299,7 +300,7 @@ margin: 2rem 0 10rem 2rem;
   }
 
 /* Modal Content */
-.modal-content, .modal-content1, .modal-content2{
+.modal-content1, .modal-content2,.modal-content1{
   background-color: #fefefe;
   margin: auto;
   padding: 20px;

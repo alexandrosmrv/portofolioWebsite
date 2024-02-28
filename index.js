@@ -48,6 +48,29 @@ $(".hi").hover(function() {
 }, function(){
    $(this).removeClass("hellojs"); 
 });
+// CONTACT FORM ON CLICK MESSAGE CONTACT PAGE
+function theSubmitPress(){
+   var theName = document.getElementById("name").value;
+   var theEmail = document.getElementById("email").value;
+   var theTextArea = document.getElementById("textarea").value;
+
+   if(theName==="" || theName===null){
+
+      alert("Please enter your Name")
+
+   }else if (theEmail===""){
+
+      alert("Please enter your E-mail")
+
+   }else if (theTextArea==="" || theTextArea===null ){
+
+      alert("Please type your message")
+   }
+   else
+   {
+      alert("Thank you '"+  theName +"' for your message we will contact you as soon as possible at your email address '"+ theEmail+"'")
+}                            }
+
 // P BLUE COLOR HEADER START
 $(".dev1").hover(function(){
    $(this).addClass("devjs");
