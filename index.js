@@ -1,13 +1,35 @@
-//ON SCROLL ADDS A CSS PROPERTY BACKGROUND GREY HOME PAGE ON SCROLL
-$(document).ready(function() {
-   $(window).scroll(function() {
-     if ($(document).scrollTop() > 500) {
-       $("#price").addClass("test");
-     } else {
-       $("#price").removeClass("test");
-     }
-   });
- });
+
+//ON SCROLL ADDS A CSS PROPERTY BACKGROUND on HOME PAGE ON SCROLL RESPONSIVE
+
+$(window).scroll(function() {
+   var screenWidth = $(window).width();
+   var scrollHeight = $(window).scrollTop();
+  
+   if(screenWidth < 767) {
+       // Actions for screens smaller than 767px wide
+       if(scrollHeight < 2200) {
+         $("#price").removeClass("test");      
+       } else {
+         $("#price").addClass("test");
+       }
+   } else if(screenWidth >= 768 && screenWidth < 1024) {
+       // Actions for screens between 768px and 1024px wide
+       if(scrollHeight < 1800) {
+         $("#price").removeClass("test");
+       } else {
+         
+         $("#price").addClass("test");
+       }
+   } else {
+       // Actions for screens larger than 1024px wide
+       if(scrollHeight < 1300) {
+         $("#price").removeClass("test");
+       } else {
+         $("#price").addClass("test")
+         
+       }
+   }
+});
 
 // Navigation Bar
 $(".nav-item").hover(function(){
@@ -179,9 +201,11 @@ function theLinkOpen7(){
    window.open("https://github.com/alexandrosmrv/reactDemoSinglePage");
 }
  
- 
-
- 
+$(document).ready(function() {
+   $(".paralax1").animate({
+     marginLeft: '200px' // Slide to the right by 200px
+   }, 2000); // Duration of the animation in milliseconds (1 second in this case)
+ });
 
 
 

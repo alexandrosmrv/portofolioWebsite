@@ -30,22 +30,25 @@ p {
   font-size: 1.25rem;
 }
 
+
 /* navigation bar Css */
 /* navigation bar  */
 .navbar-brand {
   font-family: "Roboto";
 }
-/* navigation bar logo */
+/* navigation bar Logo */
 .logo{
   padding-left: 1rem;
   height: 8.5rem;
   width: 8.5rem;
-}
+ 
+ }
 /* navigation bar behaviour */
 .container-fluid {
-  padding: 1rem;
-  
+  padding: 0.5rem; 
 }
+
+
 /* navigation bar menu items*/
 .nav-item {
   font-family: 'Raleway', sans-serif;
@@ -77,14 +80,32 @@ p {
 }
 
 .top-container {
- background-color: rgb(186, 190, 190);
+  background-image: url("../photos/photoback.webp");
+  background-color: #cccccc;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
- border-radius: 30px;
-
+  margin-bottom: 10rem;
+ }
+.textcontainer{
+  font-size: 8vw;
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dev1,.dev2{
+  color:#07070a;
 }
 .devjs{
-  color:#353536;
+  
+  color: #fefefe;
 }
+
 
 /* Mid Container Css */
   .theMidContainer{
@@ -95,6 +116,7 @@ p {
   flex-wrap: wrap;
   gap: 1.8rem;
   text-align: center;
+  margin-bottom: 10rem;
   }
   .midphotos1,.midphotos2,.midphotos3{
     border-radius: 10px;
@@ -159,27 +181,31 @@ color:rgb(30, 7, 112);
   width: auto;
   padding: 4rem;
   border-radius: 30px;
+  margin-bottom: 10rem;
   
 }
 .changecolorjs{
-  color: rgb(46, 126, 231);
+  color: rgb(11, 127, 243);
 }
 .card-header{
   height:4rem;
  
   }
 .test{
-    background-color: rgb(186, 190, 190);
+  background: linear-gradient(0.25turn, #93b3ee, #f2f3f5, #72aef3);
+  
     }
 
   /* CArousel CSS */
 .caroutest{
   text-align: center;
+  
 }
 .carousel-img{
   border-radius: 10px;
   box-shadow: 20px 20px 20px grey;
   margin:2rem 0 2rem 0 ;
+  margin-bottom: 10rem;
  }
 
 /* Contact Page */
@@ -351,6 +377,7 @@ margin: 2rem 0 10rem 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
+  margin-bottom: 10rem;
   }
 .paralaxParent{
   display: flex;
@@ -361,6 +388,7 @@ margin: 2rem 0 10rem 2rem;
   gap: 5rem;
   padding: 3% 0 5% ;
   
+  
 }
 .paralax1, .paralax2, .paralax3, .paralax4, .paralax5, .paralax6, .paralax7, .paralax8{
   padding: 0.5rem;
@@ -368,7 +396,8 @@ margin: 2rem 0 10rem 2rem;
   width: fit-content;
   border-radius: 20px;
   box-shadow: 10px 10px 10px;
- }
+  }
+  
  .paralax1:hover,.paralax2:hover, .paralax3:hover, 
 .paralax4:hover, .paralax5:hover, .paralax6:hover, 
 .paralax7:hover, .paralax8:hover{
@@ -378,6 +407,7 @@ margin: 2rem 0 10rem 2rem;
   height: fit-content;
   width: fit-content;
   border-radius: 20px;
+  
 }
 
 
