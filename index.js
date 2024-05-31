@@ -7,14 +7,14 @@ $(window).scroll(function() {
   
    if(screenWidth < 767) {
        // Actions for screens smaller than 767px wide
-       if(scrollHeight < 2200) {
+       if(scrollHeight < 4300) {
          $("#price").removeClass("test");      
        } else {
          $("#price").addClass("test");
        }
-   } else if(screenWidth >= 768 && screenWidth < 1024) {
+   } else if(screenWidth >= 768 && screenWidth <= 1024) {
        // Actions for screens between 768px and 1024px wide
-       if(scrollHeight < 1800) {
+       if(scrollHeight <4100) {
          $("#price").removeClass("test");
        } else {
          
@@ -22,7 +22,7 @@ $(window).scroll(function() {
        }
    } else {
        // Actions for screens larger than 1024px wide
-       if(scrollHeight < 1300) {
+       if(scrollHeight < 3100) {
          $("#price").removeClass("test");
        } else {
          $("#price").addClass("test")
@@ -32,6 +32,7 @@ $(window).scroll(function() {
 });
 
 // Navigation Bar
+
 $(".nav-item").hover(function(){
    $(this).delay(500).toggleClass("nav-itemjs"); //Adds-Removes Underline
 });
@@ -71,6 +72,7 @@ $(".hi").hover(function() {
    $(this).removeClass("hellojs"); 
 });
 // CONTACT FORM ON CLICK MESSAGE CONTACT PAGE
+
 function theSubmitPress(){
    var theName = document.getElementById("name").value;
    var theEmail = document.getElementById("email").value;
@@ -91,7 +93,13 @@ function theSubmitPress(){
    else
    {
       alert("Thank you '"+  theName +"' for your message we will contact you as soon as possible at your email address '"+ theEmail+"'")
-}                            }
+      
+
+   }  
+}
+   
+
+
 
 // P BLUE COLOR HEADER START
 $(".dev1").hover(function(){
