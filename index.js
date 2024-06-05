@@ -92,7 +92,9 @@ function theSubmitPress(){
    }
    else
    {
-      alert("Thank you '"+  theName +"' for your message we will contact you as soon as possible at your email address '"+ theEmail+"'")
+      alert(`Thank you ${theName} for your message we will contact
+            you as soon as possible at 
+            your email address ${theEmail}`)
       
 
    }  
