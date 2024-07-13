@@ -8,24 +8,24 @@ $(window).scroll(function() {
    if(screenWidth < 767) {
        // Actions for screens smaller than 767px wide
        if(scrollHeight < 4300) {
-         $("#price").removeClass("test");      
+         $("#price").removeClass("backgroundcolorchange" ,1000);      
        } else {
-         $("#price").addClass("test");
+         $("#price").addClass("backgroundcolorchange", 1000, );
        }
    } else if(screenWidth >= 768 && screenWidth <= 1024) {
        // Actions for screens between 768px and 1024px wide
        if(scrollHeight <4100) {
-         $("#price").removeClass("test");
+         $("#price").removeClass("backgroundcolorchange"  ,1000);
        } else {
          
-         $("#price").addClass("test");
+         $("#price").addClass("backgroundcolorchange" , 1000,)
        }
    } else {
        // Actions for screens larger than 1024px wide
        if(scrollHeight < 3100) {
-         $("#price").removeClass("test");
+         $("#price").removeClass("backgroundcolorchange" ,1000);
        } else {
-         $("#price").addClass("test")
+         $("#price").addClass("backgroundcolorchange" ,1000,)
          
        }
    }
@@ -34,11 +34,15 @@ $(window).scroll(function() {
 // Navigation Bar
 
 $(".nav-item").hover(function(){
-   $(this).delay(500).toggleClass("nav-itemjs"); //Adds-Removes Underline
+   $(this).toggleClass("nav-itemjs") //Adds-Removes Underline
 });
 $(".nav-item").on("click", function(){
-   $(this).css("background-color","grey"); //Adds a grey background on click 
+   $(this).css("background-color","grey") //Adds a grey background on click 
 });
+$(".nav-item").hover(function(){
+   $(this).animate({letterSpacing:'0.4rem'},"slow",)
+});
+
 
 // logo 'on click go to homepage
 $(".logo").on("click", function(){
@@ -73,16 +77,20 @@ $(".hi").hover(function() {
 });
 // CONTACT FORM ON CLICK MESSAGE CONTACT PAGE
 
+
+
 function theSubmitPress(){
-   var theName = document.getElementById("name").value;
-   var theEmail = document.getElementById("email").value;
-   var theTextArea = document.getElementById("textarea").value;
+   
+var theName = document.getElementById("name").value;
+var theEmail = document.getElementById("email").value;
+var theTextArea = document.getElementById("textarea").value;
 
    if(theName==="" || theName===null){
 
-      alert("Please enter your Name")
+      alert("Please enter your Name") 
+      
 
-   }else if (theEmail===""){
+   }else if (theEmail==="" || theEmail===null){
 
       alert("Please enter your E-mail")
 
@@ -92,14 +100,15 @@ function theSubmitPress(){
    }
    else
    {
-      alert(`Thank you ${theName} for your message we will contact
-            you as soon as possible at 
-            your email address ${theEmail}`)
+      alert
+      (`Thank you ${theName} 
+      for your message we will contact you as soon as 
+      possible at your email address ${theEmail}`)
       
-
-   }  
+      }  
+      
 }
-   
+
 
 
 
