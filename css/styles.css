@@ -36,12 +36,14 @@ p {
 
 .nav-itemjs{
   text-decoration: underline #606163;
+  
   }
   
 /* Header-container CSS */
 .im1,.im2 {
   font-size: 3.2rem;
   color: rgb(9, 61, 173);
+  
 }
 
 .top-container {
@@ -65,7 +67,8 @@ text-align: center;
 }
 .dev1,.dev2{
   color: rgb(9, 61, 173);
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  
 }
 .devjs{
    color: #faf8f8;
