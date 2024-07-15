@@ -40,7 +40,7 @@ $(".nav-item").on("click", function(){
    $(this).css("background-color","grey") //Adds a grey background on click 
 });
 $(".nav-item").hover(function(){
-   $(this).animate({fontWeight:'600'},"fast",)
+   $(this).animate({fontWeight:'400'},"fast",)
    $(this).animate({letterSpacing:'0.4rem'},"slow",)
    
 });
