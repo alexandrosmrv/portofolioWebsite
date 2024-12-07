@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+
+
+  
+  <h1 class="headerh1">My Portfolio</h1>
+  <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+    slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+    
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/portofolioWebsite/">
+        <img src="assets/project_port1.jpg" />
+      </a>
+      <p>The code for all my projects has been personally authored by me.</p>
+            </swiper-slide>
+    <swiper-slide>
+      <a href="https://mavrozoumisportfolio.com/">
+        <img src="assets/project_port2.jpg" />
+      </a>
+      <p>Everyday learning, evolving, creating, debugging.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/curriculum-vitae/">
+        <img src="assets/project_port3.jpg" />
+      </a>
+      <p>Always trying for the best outcome.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/flex_grid/">
+        <img src="assets/project_port4.png" />
+      </a>
+      <p>Please spend some of your precious time to take a look around.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/btstrap.jquery-demo/">
+        <img src="assets/project_port5.png" />
+      </a>
+        <p>I am still learning but i think i have a good foundation to begin with.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/tind_vanillaJs/">
+        <img src="assets/project_port6.png.jpg" />
+      </a>
+      <p>Feel free to contact me anytime.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/checkList_Spv/">
+        <img src="assets/project_port7.jpg" />
+      </a>
+      <p>Integer aliquet magna eget volutpat dapibus.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/overtimecheck/">
+        <img src="assets/project_port8.jpg" />
+      </a>
+      <p>Sed vestibulum elit et lacus elementum vestibulum.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/Demo./">
+        <img src="assets/project_port9.jpg" />
+      </a>
+      <p>Thank you for your time i appreciate it.</p>
+    </swiper-slide>
+  </swiper-container>
+
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row footer ">
+        <div class="col-md-12 text-center">
+          <h1>Follow<br><span>Me</span></h1>
+          <ul class="social-links">
+            <li><a href="https://www.linkedin.com"><img src="assets/linkedin2.png"></a></li>
+            <li><a href="https://www.facebook.com"><img src="assets/facebook3-modified.png"></a></li>
+            <li><a href="https://x.com/"><img src="assets/xtwitter-modified.png"></a></li>
+            <li><a href="https://github.com/alexandrosmrv"><img src="assets/github1-modified.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row footer secondmenu">
+      <ul class="social-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+       </ul>
+      </div>
+      <div class="row sub-footer">
+        <div class="col-md-12 text-center">
+          <p>Developed by A.m @2024 </a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      },
+    });
+  </script>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  
+</body>
+
+</html>
